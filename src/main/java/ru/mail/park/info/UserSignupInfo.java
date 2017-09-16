@@ -14,7 +14,7 @@ public class UserSignupInfo {
             @JsonProperty(value = "username", required = true) String username,
             @JsonProperty(value = "email", required = true) String email,
             @JsonProperty(value = "password", required = true) String password,
-            @JsonProperty(value = "passRepeated", required = true) String passRepeated
+            @JsonProperty(value = "confirmation", required = true) String passRepeated
     )
     {
         this.username = username;
